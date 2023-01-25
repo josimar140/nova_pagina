@@ -12,9 +12,9 @@
 
 6 - Validação Atividade Profissional como Estágio
 
-5.1 - Funcionário, Proprietário de empresa e militar
+6.1 - Funcionário, Proprietário de empresa e militar
 
-5.2 - Autônomo
+6.2 - Autônomo
 
 7 - Legislação
 
