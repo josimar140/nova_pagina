@@ -1,36 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
-body {
-
-}
-
-.container {
-    margin: 0 auto;
-    width: 60%;
-    height: 100vh;   
-    background-color: #646568);    
-}
-
-#title-1 {
-    margin-top: 10px;
-}
-
-p {
-    text-align: justify;
-}
-
-.container-group {
-    margin-top: 100px;
-}
-
-.container-1 {
-    display: flex;
-    flex-direction: column;
-}
 
 .title-3{
     display: flex;  
