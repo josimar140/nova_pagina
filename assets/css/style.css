@@ -16,6 +16,12 @@ p {
     margin-top: 20px;
 }
 
+hr {
+    margin-top: 20px;
+    width: 950px;
+    border: 1px solid #6cf8c3;    
+}
+
 .container {
     display: flex;
     flex-direction: column; 
@@ -28,7 +34,7 @@ p {
     justify-content: center;
     align-items: center;    
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 30px;    
 }
 
 .tit-3 {
