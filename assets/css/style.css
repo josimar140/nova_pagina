@@ -4,7 +4,7 @@
     box-sizing: border-box;   
 }
 
-#title-1 h1 {
+#title-1 {
     display: flex;    
     justify-content: center;    
     background-color:#6cf8c3;    
@@ -13,6 +13,7 @@
 p {
     width: 950px;
     text-align: justify;
+    margin-top: 20px;
 }
 
 .container {
@@ -27,7 +28,7 @@ p {
     justify-content: center;
     align-items: center;    
     gap: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .tit-3 {
