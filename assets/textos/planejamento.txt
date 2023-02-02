@@ -12,11 +12,17 @@
 
 6 - Validação Atividade Profissional como Estágio
 
-6.1 - Funcionário, Proprietário de empresa e militar
+    6.1 - Funcionário, Proprietário de empresa e militar
 
-6.2 - Autônomo
+    6.2 - Autônomo
 
-7 - Legislação
+7 - Entrega de Relatório de Estágio Final
+
+8 - Legislação
+
+9 - Perguntas e Respostas
+
+10 - Consulte seu Processo
 
 
 
