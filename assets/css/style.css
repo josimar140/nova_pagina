@@ -7,7 +7,8 @@
 body {
     display: flex;
     justify-content: center;
-    width: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #title-1 {
@@ -15,18 +16,18 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #6cf8c3 ;
-    width: 100%;
+    width: 80%;
 }
  
 p {
-    width: 950px;
+    width: 80%;
     text-align: justify;
     margin-top: 20px;
 }
 
 hr {
     margin-top: 20px;
-    width: 950px;
+    width: 80%;
     border: 1px solid #6cf8c3;    
 }
 
