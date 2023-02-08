@@ -8,10 +8,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    text-align: justify;
 }
 
 h2 {
-    margin: 20px 20px;
+    margin: 20px auto 20px 0px;
+    padding-left: 2px;
+    border-left: 2px solid rgb(87, 83, 83);
 }
