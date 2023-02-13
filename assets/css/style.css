@@ -7,7 +7,8 @@
 body {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 80%;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -26,7 +27,7 @@ p {
 }
 
 hr {
-    margin-top: 20px;
+    margin-top: 40px;
     width: 80%;
     border: 1px solid #6cf8c3;    
 }
@@ -54,3 +55,4 @@ hr {
     background-color: #6cf8c3;
     color: #000;    
 }
+
