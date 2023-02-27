@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
 }
 
 body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 80%;    
+    width: 80%; 
 }
 
 .container {
@@ -34,20 +34,48 @@ p {
     margin-top: 10px;
 }
 
-
-hr {
+.row {
     margin-top: 40px;
     width: 80%;
     border: 1px solid #6cf8c3;    
 }
 
-.container-group{
+.container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-group{
+    display: block;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto;    
+}
+
+.group-1 {
+    display: flex;
+    justify-content: space-around;    
+    align-content: center;
+    border-top: 1px solid #6cf8c3;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.group-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    border-top: 1px solid #6cf8c3;
+    margin-top: 50px;
+    padding-top: 20px;
     
 }
+
+
+
 
 h3 {
     margin-top: 20px;
