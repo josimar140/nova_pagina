@@ -10,11 +10,49 @@ body {
     justify-content: center;
     width: 70%;
     margin: 0 auto;
-    text-align: justify;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    background-color: #6cf8c3;
+    width: 80%;
+} 
+
+.header-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;    
+    justify-content: center;
+}
+
+.menu-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    border: 1px solid #0b8556;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 h2 {
     margin: 20px auto 20px 0px;
     padding-left: 2px;
     border-left: 2px solid rgb(48, 196, 104);
+}
+
+p {    
+    width: 80%;
+    text-align: justify;
+    margin-top: 10px;
 }

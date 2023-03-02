@@ -5,16 +5,17 @@
 }
 
 body {
-    margin: 0 auto;
-    height: 100vh;
-    width: 80%; 
+    
+    margin: 0 auto;    
+    width: 100%; 
 }
 
 .container {
     display: flex;
     justify-content: center;  
     flex-direction: column; 
-    align-items: center;    
+    align-items: center;  
+    width: 100%;  
 }
 
 header {
@@ -23,6 +24,8 @@ header {
     align-items: center;
     background-color: #6cf8c3;
     width: 80%;
+
+    
 } 
 
 .header-menu{
@@ -35,6 +38,7 @@ header {
 .menu {
     display: flex;    
     justify-content: center;
+    
 }
 
 .menu-li {
@@ -49,7 +53,12 @@ header {
     border-radius: 5px;
 }
 
-
+h1 {
+    
+    text-align: left;
+    
+    
+}
 
 p {    
     width: 80%;
@@ -65,7 +74,7 @@ p {
     margin: 0 auto;    
 }
 
-/* GRUPO QR-CODE */
+/* GRUPO-1 TITULOS; GRUPO QR-CODE */
 .group-1 {
     display: flex;
     justify-content: space-around; 
@@ -80,14 +89,28 @@ p {
     align-items: center;
 }
 
-/* TITULOS */
+.group-1 .tit-3:hover {
+    background-color: #5faa8d; 
+}
+
+/* GRUPO-2 TITULOS  */
 .group-2 {
     display: flex;
     justify-content: space-around;
     align-items: center;    
     border-top: 1px solid #6cf8c3;    
-    margin: 20px;
-}    
+    margin: 20px;  
+} 
+
+.group-2 .tit-3:hover {
+    background-color: #5faa8d;    
+}
+
+a {
+    text-decoration: none;
+    color: #033b26;
+    
+}
 
 /* TÍTULOS */
 .tit-3 {  
@@ -97,9 +120,10 @@ p {
     margin: 20px;
     padding: 5px;
     cursor: pointer;
-    background-color: #6cf8c3;
+    background-color: #61ebb6;
     color: #000; 
-    text-align: center;   
+    text-align: center; 
+    transition: background-color 1s;
 }
 
 
