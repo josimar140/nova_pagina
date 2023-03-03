@@ -27,7 +27,32 @@ header {
     background-color: #6cf8c3;
 }
 
-.rdt  {
+.header-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;    
+    justify-content: center;
+    
+}
+
+.menu-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    border: 1px solid #0b8556;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;   
+}
+
+.reqDocTram  {
     display: inline-block;
     justify-content: center;
     align-items: center;

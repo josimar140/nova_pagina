@@ -7,7 +7,7 @@
 body {
     
     margin: 0 auto;    
-    width: 100%; 
+    width: 80%; 
 }
 
 .container {
@@ -24,8 +24,6 @@ header {
     align-items: center;
     background-color: #6cf8c3;
     width: 80%;
-
-    
 } 
 
 .header-menu{
@@ -50,14 +48,11 @@ header {
     border: 1px solid #0b8556;
     margin: 5px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px;   
 }
 
-h1 {
-    
-    text-align: left;
-    
-    
+h1 {    
+    text-align: left;   
 }
 
 p {    
