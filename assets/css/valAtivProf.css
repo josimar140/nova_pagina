@@ -6,11 +6,11 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;  
     margin: 0 auto;  
     padding: 0;
-    width: 80%;
-    
+    width: 80%;    
 }
 
 .container {
@@ -19,7 +19,6 @@ body {
     flex-direction: column; 
     align-items: center; 
     width: 80%;
-    
 }
 
 header {
@@ -41,7 +40,6 @@ header {
 .menu {
     display: flex;    
     justify-content: center;
-    
 }
 
 .menu-li {
