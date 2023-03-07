@@ -6,8 +6,8 @@
 
 body {
     width: 70vw;
+    height: 70vh;
     margin: 0 auto;    
-    
 }
 
 .container {
@@ -21,8 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;   
     align-items: center;
-    background-color: #6cf8c3;
-    flex-wrap: wrap;
+    background-color: #6cf8c3;    
     margin-bottom: 20px;
 } 
 
@@ -47,8 +46,13 @@ section.paragrafo {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: justify;
+}
+
+h1 {
+    margin-bottom: 10px;
 }
 
 .container-group{
@@ -59,7 +63,7 @@ section.paragrafo {
     margin: 0 auto;    
 }
 
-/* GRUPO-1 TITULOS; GRUPO QR-CODE */
+/* GRUPO QR-CODE / GRUPO-1 / TITULOS;  */
 .group-1 {
     display: flex;
     justify-content: space-around; 
