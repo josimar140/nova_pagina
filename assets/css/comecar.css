@@ -5,37 +5,26 @@
 }
 
 body {
+    
+    
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 80%;
-    margin: 0 auto;  
-    padding: 0;  
+    align-items: flex-start;
 }
 
 .container {
     display: flex;
     justify-content: center;  
     flex-direction: column; 
-    align-items: center; 
+    align-items: center ; 
+    background-color: yellow;
     width: 80%;
-
+    
 }
 
 header {
     display: flex;
     justify-content: space-between;   
-    align-items: center;
-    background-color: #6cf8c3;
-    width: 80%;
-    margin: 0 auto;
-} 
-
-.header-menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .menu {
@@ -50,16 +39,17 @@ header {
     text-align: center;
     list-style: none;
     border: 1px solid #0b8556;
-    margin: 5px;
+    margin: 2px;
     padding: 5px;
     border-radius: 5px;
 }
 
-.recDocTram  {
-    display: block;
-    justify-content: center;
-    align-items: center;
+.reqDocTram  {
+    text-align: justify;
     width: 80%;
-    margin: 0 auto;
+    background-color: brown; 
 }
 
+.reqDocTram li {
+    list-style: none;
+}
