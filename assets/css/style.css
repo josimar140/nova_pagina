@@ -36,7 +36,6 @@ header {
 .menu {
     display: flex;    
     justify-content: center;
-    
 }
 
 .menu-li {
@@ -51,9 +50,7 @@ header {
     border-radius: 5px;   
 }
 
-h1 {    
-    text-align: left;   
-}
+
 
 p {    
     width: 80%;
