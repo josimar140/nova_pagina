@@ -20,28 +20,34 @@ body{
     margin: 0 auto;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color:  #6cf8c3;
-}
-
-.menu-ul {
-    display: flex;
-    justify-content: center;
-}
-
-.menu-li {
+#cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #6cf8c3;
+    width: 100vw;
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    align-items: center;
+}
+
+.nav-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    list-style: none;
-    border: 1px solid #0b8556;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;   
+    list-style: none;  
 }
 
 
