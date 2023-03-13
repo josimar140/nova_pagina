@@ -17,7 +17,7 @@ body {
     align-items: center;  
 }
 
-header {
+header {   
     background-color: #6cf8c3;
     width: 100vw;
 }
@@ -35,19 +35,17 @@ nav {
     margin-bottom: 20px;
     width: 70vw;
     margin: 0 auto;
-
 }
 
 .nav-ul {
     display: flex;
     justify-content: center;
-    
 }
 
 .nav-li {
     display: flex;
     justify-content: center;
-    align-content:center; 
+    align-items: center;
     text-align: center;  
     border: 1px solid #0b8556;
     margin: 5px;
