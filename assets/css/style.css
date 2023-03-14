@@ -71,7 +71,6 @@ section.paragrafo {
     text-align: justify;
 }
 
-
 .container-group{
     display: block;
     justify-content: space-between;
@@ -82,6 +81,7 @@ section.paragrafo {
 
 .container-group a {
     text-decoration: none;  
+    color: white;
 }
 
 /* GRUPO QR-CODE / GRUPO-1 / TITULOS;  */
@@ -89,7 +89,7 @@ section.paragrafo {
     display: flex;
     justify-content: space-around; 
     align-items: center;  
-    border-top: 1px solid #6cf8c3; 
+    border-top: 1px solid #228A22; 
     margin: 20px;
 }
 
@@ -100,7 +100,7 @@ section.paragrafo {
 }
 
 .group-1 .tit-3:hover {
-    background-color: #5faa8d; 
+    background-color: #43E04B; 
 }
 
 /* GRUPO-2 TITULOS  */
@@ -108,24 +108,22 @@ section.paragrafo {
     display: flex;
     justify-content: space-around;
     align-items: center;    
-    border-top: 1px solid #6cf8c3;    
+    border-top: 1px solid #228A22;    
     margin: 20px;  
 } 
 
 .group-2 .tit-3:hover {
-    background-color: #5faa8d;    
+    background-color: #43E04B;    
 }
 
 /* TÍTULOS */
 .tit-3 {  
-    text-align: center;
-    border: 1px solid #72e2b7;    
+    text-align: center;        
     border-radius: 5px;
     margin: 20px;
     padding: 5px;
     cursor: pointer;
-    background-color: #61ebb6;
-    color: #000; 
+    background-color: #228A22; 
     text-align: center; 
     transition: background-color 1s;
 }
